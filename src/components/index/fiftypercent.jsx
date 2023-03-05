@@ -12,8 +12,8 @@ const FiftyPercent =  () =>{
           <div className="container-fluid position-relative position-lg-absolute top-0 start-0 h-100">
             <div className="row h-100 me-n4 me-n2">
               <div className="col-lg-7 position-relative">
-                <div className="d-none d-sm-block d-lg-none" style={{height: '400px'}} />
-                <div className="d-sm-none" style={{height: '300px'}} />
+                <div className="d-none d-sm-block d-lg-none" style={{height: '580px'}} />
+                <div className="d-sm-none" style={{height: '400px'}} />
 
                 <div data-jarallax  className="jarallax position-absolute top-0 start-0 w-100 h-100 rounded-3 rounded-start-0 overflow-hidden" data-speed="0.5">
                   <img className="jarallax-img" src={heroimg} alt=""/>

@@ -44,7 +44,7 @@ const ComoFunciona =  () =>{
           navigation={{'prevEl':'#prev-testimonial','nextEl':'#next-testimonial'}}
           pagination={{clickable:true,'el':'.swiper-pagination'}}
           breakpoints= {
-            {500: {slidesPerView: 2},800: {slidesPerView: 3},1200: {slidesPerView: 4}}
+            {480: {slidesPerView: 1},768: {slidesPerView: 2},1024: {slidesPerView: 3},1280: {slidesPerView: 4}}
           }
 
           onSlideChange={() => console.log('slide change')}
