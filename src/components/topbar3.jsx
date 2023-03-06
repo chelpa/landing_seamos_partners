@@ -19,7 +19,7 @@ const NavBarLogo =  () =>{
     sticky="top" navbar="expand-lg" navbar="light" navbar="sticky"
      bg="light" expand="lg">
      <Navbar.Brand href="#QuienesSomosPI" className="navbar-brand pe-3">
-         <img src={logo} width={277} alt="Partners Inmobiliario" />
+         <img src={logo} width={344} alt="Partners Inmobiliario" />
        </Navbar.Brand>
        <div className="container px-3">
        <Nav id="navbarNav" className="offcanvas offcanvas-end">

@@ -24,7 +24,7 @@ const Header =  () =>{
       <Container fluid className="container px-3"
       >
         <Navbar.Brand href="#QuienesSomosPI" className="navbar-brand pe-3">
-          <img src={logo} width={277} alt="Partners Inmobiliario" />
+          <img src={logo} width={480} alt="Partners Inmobiliario" />
         </Navbar.Brand>
         <Nav id="navbarNav" className="offcanvas offcanvas-end">
           <div className="offcanvas-header border-bottom">
@@ -47,7 +47,7 @@ const Header =  () =>{
         <Navbar.Collapse id="navbarScroll">
         <Nav
         className="me-auto my-2 my-lg-0"
-        style={{ maxHeight: '100px' }}
+        style={{ maxHeight: '200px' }}
         navbarScroll
         >
     <Nav.Link href="#action1">Partners Inmobiliarios</Nav.Link>

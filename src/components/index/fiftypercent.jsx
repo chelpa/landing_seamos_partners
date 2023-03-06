@@ -13,7 +13,7 @@ const FiftyPercent =  () =>{
             <div className="row h-100 me-n4 me-n2">
               <div className="col-lg-7 position-relative">
                 <div className="d-none d-sm-block d-lg-none" style={{height: '580px'}} />
-                <div className="d-sm-none" style={{height: '400px'}} />
+                <div className="d-sm-none" style={{height: '450px'}} />
 
                 <div data-jarallax  className="jarallax position-absolute top-0 start-0 w-100 h-100 rounded-3 rounded-start-0 overflow-hidden" data-speed="0.5">
                   <img className="jarallax-img" src={heroimg} alt=""/>
@@ -47,15 +47,15 @@ const FiftyPercent =  () =>{
                 <ul className="list-unstyled mb-0 px-4 px-lg-0">
                   <li className="d-flex align-items-center pb-1 mb-2">
                     <i className="bx bx-map fs-xl text-primary me-2" />
-                    Tobalaba, Providencia, Chile
+                    Luis Thayer Ojeda 0115 Of. 405
                   </li>
                   <li className="d-flex align-items-center pb-1 mb-2">
                     <i className="bx bx-envelope fs-xl text-primary me-2" />
-                    <a href="mailto:seamos_partners@gmail.com" className="nav-link fw-normal p-0">seamos_partners@gmail.com</a>
+                    <a href="mailto:contacto@seamospartners.com" className="nav-link fw-normal p-0">contacto@seamospartners.com</a>
                   </li>
                   <li className="d-flex align-items-center pb-1 mb-2">
                     <i className="bx bx-phone-call fs-xl text-primary me-2" />
-                    <a href="tel:4065550120" className="nav-link fw-normal p-0">(+569) 9696987</a>
+                    <a href="https://wa.me/56966115044" className="nav-link fw-normal p-0">(+569) 66115044</a>
                   </li>
                 </ul>
               </div>

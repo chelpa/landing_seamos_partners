@@ -20,7 +20,7 @@ import './sticky-navbar.js';
 const NavBarFooter =  () =>{
   return (
 
-    
+
 
     <Navbar className="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky" sticky="top" navbar="expand-lg" navbar="light" navbar="sticky" className="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky" bg="light" expand="lg">
     <Navbar.Brand href="#QuienesSomosPI" className="navbar-brand pe-3">
