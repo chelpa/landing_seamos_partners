@@ -20,7 +20,7 @@ const Flyers =  () =>{
           autoHeight={true}
           pagination={{clickable:true,'el':'.swiper-pagination'}}
           breakpoints= {
-            {500: {slidesPerView: 2}, 991: {slidesPerView: 3}}
+            {480: {slidesPerView: 1},768: {slidesPerView: 2},1024: {slidesPerView: 3},1280: {slidesPerView: 4}}
           }
 
           onSlideChange={() => console.log('slide change')}
@@ -55,7 +55,7 @@ const Flyers =  () =>{
         <div className="d-flex flex-column flex-sm-row justify-content-center pt-3 pt-sm-4">
         <a href="account-signup.html" className="btn btn-warning shadow-warning btn-lg text-dark">AUMENTA TUS INGRESOS</a>
 
-  
+
         </div>
       </section>
     );

@@ -36,7 +36,7 @@ const Preguntas =  () =>{
               navigation={{'prevEl':'#prev-testimonial','nextEl':'#next-testimonial'}}
 
               breakpoints= {
-                {500: {slidesPerView: 2},1000: {slidesPerView: 2},1200: {slidesPerView: 3}}
+                {480: {slidesPerView: 1},768: {slidesPerView: 2},1024: {slidesPerView: 3},1280: {slidesPerView: 4}}
               }
 
               onSlideChange={() => console.log('slide change')}

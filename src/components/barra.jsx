@@ -12,10 +12,12 @@ const Barra =  () =>{
 
     <Navbar collapseOnSelect expand="lg" bg="light" sticky="top" bg="light" className="header">
       <Container className="px-3">
-      <Navbar.Brand href="#home" className="pe-3">
-        <img src={logo} width="237" alt="Partners Inmobiliarios"/>
+      <Navbar.Brand href="www.seamospartners.com" className="pe-3">
+        <img src={logo} width="345" alt="Partners Inmobiliarios"/>
       </Navbar.Brand>
+
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      
       <Nav className="offcanvas offcanvas-end">
         <div class="offcanvas-header border-bottom">
           <h5 class="offcanvas-title">Menú</h5>
